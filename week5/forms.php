@@ -17,6 +17,7 @@ body{
 }
 *{
   font-family: 'Barlow', sans-serif;
+  font-weight:bold;
 }
 </style>
 </head>
@@ -79,7 +80,7 @@ function test_input($data) {
 }
 ?>
 
-<h2>PHP Form Validation Example</h2>
+<h2>Want to know more?</h2>
 <p><span class="error">* required field</span></p>
 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
   Name: <input type="text" name="name" value="<?php echo $name;?>">
