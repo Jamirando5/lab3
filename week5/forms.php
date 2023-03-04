@@ -2,7 +2,12 @@
 <html>
 <head>
 <style>
-.error {color: #FF0000;}
+.error{
+  color: #FF0000;
+}
+  body{
+  background-image:url(/thumbnails/FORMSBG.jfif);
+}
 </style>
 </head>
 <body>  
