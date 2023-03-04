@@ -19,6 +19,13 @@ body{
   font-family: 'Barlow', sans-serif;
   font-weight:bold;
 }
+section{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ min-height: 100vh;
+ width: 100%;
+}
 </style>
 </head>
 <body>  
