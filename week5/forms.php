@@ -6,7 +6,7 @@
   color: #FF0000;
 }
 body{
-  background-color: RGB (245, 139, 87);						 
+  background-color:rgb(245, 139, 87);					 
 } 
 </style>
 </head>
