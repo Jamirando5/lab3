@@ -17,10 +17,6 @@ body{
 }
 *{
   font-family: 'Barlow', sans-serif;
-  font-weight:bold;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 </style>
 </head>
