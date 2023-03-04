@@ -5,9 +5,9 @@
 .error{
   color: #FF0000;
 }
-  body{
-  background-image:url(/thumbnails/FORMSBG.jfif);
-}
+body{
+  background-color:black;
+} 
 </style>
 </head>
 <body>  
