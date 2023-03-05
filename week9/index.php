@@ -25,8 +25,8 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#socials">Contact me</a></li>
-                <li><a href="time.html">Time</a></li>
-                <li><a href="hobbies.html">Hobbies</a></li>
+                <li><a href="time.php">Time</a></li>
+                <li><a href="hobbies.php">Hobbies</a></li>
             </ul>
             <a href="forms.php" class="btn">PHP FORMS</a>
         </nav>
