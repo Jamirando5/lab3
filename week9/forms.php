@@ -130,8 +130,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     die("Connection failed: " . $conn->connect_error);
   }
 
-  $sql = "INSERT INTO jamirando_guests (firstname, lastname, email)
-  VALUES ('$name', ' ', '$email')";
+  $sql = "INSERT INTO jamirando_guests (Name, Email, Website, Comment, Gender, ID, REGDATE )
+  VALUES ('$name','$email','$gender','$website','$comment')";
 
   if ($conn->query($sql) === TRUE) {
     echo "New record created successfully";
