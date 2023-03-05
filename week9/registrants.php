@@ -1,3 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <Title>Guests</Title>
+<style>
+body{
+  background-color:rgb(245, 139, 87);					 
+}
+*{
+  font-family: 'Barlow', sans-serif;
+  font-weight:bold;
+  
+}
+</style>
+</head>
+<body>
+<h1> Guests</h1>
 <?php
 $servername = "localhost";
 $username = "root";
@@ -24,3 +41,5 @@ if ($result->num_rows > 0) {
 }
 $conn->close();
 ?>
+</body>
+</html>
