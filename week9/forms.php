@@ -131,7 +131,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   }
 
   $sql = "INSERT INTO jamirando_guests (Name, Email, Website, Comment, Gender)
-  VALUES ('$name','$email','$gender','$website','$comment')";
+  VALUES ('$name','$email','$website','$gender','$comment')";
 
   if ($conn->query($sql) === TRUE) {
     echo "New record created successfully";
