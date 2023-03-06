@@ -11,7 +11,7 @@
                 <li><a href="http://apcwebprog.csf.ph/~jamirando/lab3/ci4/public/time">Time</a></li>
                 <li><a href="http://apcwebprog.csf.ph/~jamirando/lab3/ci4/public/hobbies">Hobbies</a></li>
             </ul>
-            <a href="forms.php" class="btn">PHP FORMS</a>
+            <a href="http://apcwebprog.csf.ph/~jamirando/lab3/ci4/public/forms" class="btn">PHP FORMS</a>
         </nav>
 
         <div class="content">
