@@ -20,7 +20,7 @@ class Guest extends BaseController
                 . view('templates/footer');
         }
 
-        $post = $this->request->getPost(['title', 'body']);
+        $post = $this->request->getPost(['Name', 'Email', 'Website', 'Comment','Gender']);
 
         // Checks whether the submitted data passed the validation rules.
         if (! $this->validateData($post, [
