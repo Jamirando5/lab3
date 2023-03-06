@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 namespace App\Controllers;
@@ -50,4 +51,27 @@ class Guest extends BaseController
             . view('guest/success')
             . view('templates/footer');
     }
+=======
+<?php
+
+namespace App\Controllers;
+
+use App\Models\GuestModel;
+
+class Guest extends BaseController
+{
+    public function index()
+    {
+    $model = model(GuestModel::class);
+
+    $data = [
+        'guest' => $model->getGuest(),
+        'title' => 'Guestbook',
+    ];
+
+    return view('templates/header', $data)
+         . view('guest/index')
+         .view('templates/footer');
+    }
+>>>>>>> a96ea40d089e43b439359b07b4cc5ca6666a7e66
 }
