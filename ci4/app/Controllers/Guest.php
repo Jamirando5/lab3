@@ -39,11 +39,11 @@ class Guest extends BaseController
         $model = model(GuestModel::class);
 
         $model->save([
-            'name' => $post['name'],
-            'email'  => $post['email'],
-            'website'  => $post['website'],
-            'comment'  => $post['comment'],
-            'gender'  => $post['email'],
+            'Name' => $post['Name'],
+            'Email'  => $post['Email'],
+            'Website'  => $post['Website'],
+            'Comment'  => $post['Comment'],
+            'Gender'  => $post['Email'],
         ]);
 
         return view('templates/header', ['title' => 'Create a guest item'])
