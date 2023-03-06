@@ -8,6 +8,20 @@ class Guest extends BaseController
 {
     // ...
 
+    public function index()
+    {
+        $model = model(GuestModel::class);
+
+        $data = [
+            'guest'  => $model->getGuest(),
+            'title' => 'guestbook',
+        ];
+
+        return view('templates/header', $data)
+            . view('guest/index')
+            . view('templates/footer');
+    }
+
     public function create()
     {
         helper('form');
